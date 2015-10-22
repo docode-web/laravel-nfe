@@ -1,0 +1,21 @@
+{
+    "name": "docode/laravel-nfe",
+	"description": "Pacote laravel para NfePhp-Org",
+    "authors": [
+        {
+            "name": "Daniel Lima",
+            "email": "daniel@docode.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "5.*",
+        "nfephp-org/nfephp" : "dev-develop"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Docode\\LaravelNfe" : "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
