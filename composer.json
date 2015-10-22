@@ -17,5 +17,5 @@
             "Docode\\LaravelNfe" : "src"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
