@@ -12,6 +12,6 @@ class Nfe extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-nfe';
+        return \Docode\LaravelNfe\Lib\Nfe::class;
     }
 }

@@ -44,6 +44,6 @@ class NfeServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['laravel-nfe'];
+        return [];
     }
 }
