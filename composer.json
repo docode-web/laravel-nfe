@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Docode\\LaravelNfe" : "src"
+            "Docode\\" : "src/Docode"
         }
     },
     "minimum-stability": "dev"
