@@ -1,5 +1,5 @@
 <?php
-namespace Docode\LaravelNfe;
+namespace Docode\LaravelNfe\Provider;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -21,7 +21,7 @@ class NfeServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../../config/nfe.php' => config_path('nfe.php')
+            __DIR__.'/../../../config/nfe.php' => config_path('nfe.php')
         ], 'config');
     }
 
@@ -33,7 +33,7 @@ class NfeServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../../config/nfe.php', 'nfe'
+            __DIR__.'/../../../config/nfe.php', 'nfe'
         );
     }
 
