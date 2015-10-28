@@ -17,5 +17,6 @@
             "Docode\\" : "src/Docode"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "license": "MIT"
 }
