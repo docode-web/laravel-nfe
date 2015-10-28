@@ -1,9 +1,5 @@
 [![Build Status](https://travis-ci.org/docode-web/laravel-nfe.svg)](https://travis-ci.org/docode-web/laravel-nfe)
 
-[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/docode-web/laravel-nfe/network)
-[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star)](https://github.com/docode-web/laravel-nfe/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/badges/shields.svg?style=social&label=Watch)](https://github.com/docode-web/laravel-nfe/watchers)
-
 ## Emita Nota Fiscal Eletrônica com Laravel e Nfe-Php
 Pacote para Laravel, utilizando a API do Nfe-PHP para emissão de Nota Fiscal Eletrônica.
 
