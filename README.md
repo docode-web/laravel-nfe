@@ -11,6 +11,7 @@ Pacote para Laravel, utilizando a API do Nfe-PHP para emissão de Nota Fiscal El
 #### Instalação
 insira em seu composer.json
 ```
+[
     "require": {
         "docode-web/laravel-nfe": "dev-master"
     }
